@@ -1,13 +1,10 @@
 # DNSSeeder
 
-**This project is currently under active development and is in Beta
-state.**
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Nexell-AI-Network/dnsseeder)
 
 DNSSeeder exposes a list of known peers to any new peer joining the
-Nexellianetwork via the DNS protocol.
+Nexellia network via the DNS protocol.
 
 When DNSSeeder is started for the first time, it will connect to the
 `nexelliad` node specified with the `-s` flag and listen for `addr`
@@ -24,7 +21,6 @@ of a random selection of the reliable nodes it knows about.
 
 It is written in Go (golang).
 
-This project is currently under active development and is in Beta state.
 
 ## Requirements
 
