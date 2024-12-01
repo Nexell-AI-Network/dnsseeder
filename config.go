@@ -12,13 +12,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/config"
 
-	"github.com/Nexellia-Network/dnsseeder/version"
+	"github.com/Nexell-AI-Network/dnsseeder/version"
 	"github.com/pkg/errors"
 
 	"github.com/jessevdk/go-flags"
-	"github.com/Nexellia-Network/nexelliad/util"
+	"github.com/Nexell-AI-Network/nexelliad/v2/util"
 )
 
 const (

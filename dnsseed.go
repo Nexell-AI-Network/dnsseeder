@@ -14,19 +14,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/app/protocol/common"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/config"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/netadapter/standalone"
+	"github.com/Nexell-AI-Network/nexelliad/v2/app/protocol/common"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/config"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
-	"github.com/Nexellia-Network/dnsseeder/version"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/dnsseed"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
-	"github.com/Nexellia-Network/nexelliad/util/profiling"
+	"github.com/Nexell-AI-Network/dnsseeder/version"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/network/dnsseed"
+	"github.com/Nexell-AI-Network/nexelliad/v2/util/panics"
+	"github.com/Nexell-AI-Network/nexelliad/v2/util/profiling"
 
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/os/signal"
+	"github.com/Nexell-AI-Network/nexelliad/v2/app/appmessage"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/os/signal"
 
 	_ "net/http/pprof"
 )

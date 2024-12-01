@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/addressmanager"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/network/addressmanager"
 
 	"github.com/miekg/dns"
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
+	"github.com/Nexell-AI-Network/nexelliad/v2/app/appmessage"
+	"github.com/Nexell-AI-Network/nexelliad/v2/domain/consensus/model/externalapi"
 	"github.com/pkg/errors"
 )
 

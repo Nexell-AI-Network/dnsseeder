@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Nexellia-Network/nexelliad/infrastructure/logger"
-	"github.com/Nexellia-Network/nexelliad/util/panics"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/logger"
+	"github.com/Nexell-AI-Network/nexelliad/v2/util/panics"
 )
 
 var (

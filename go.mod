@@ -1,16 +1,17 @@
-module github.com/Nexellia-Network/dnsseeder
+module github.com/Nexell-AI-Network/dnsseeder
 
-go 1.18
+go 1.23.3
 
 require (
+	github.com/Nexell-AI-Network/nexelliad/v2 v2.0.4
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/miekg/dns v1.1.25
-	github.com/Nexellia-Network/nexelliad v1.0.0
 	github.com/pkg/errors v0.9.1
 	google.golang.org/grpc v1.53.0
 )
 
 require (
+	github.com/aead/skein v0.0.0-20160722084837-9365ae6e95d2 // indirect
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect

@@ -4,7 +4,7 @@
 state.**
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Nexellia-Network/dnsseeder)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Nexell-AI-Network/dnsseeder)
 
 DNSSeeder exposes a list of known peers to any new peer joining the
 Nexellianetwork via the DNS protocol.
@@ -53,8 +53,8 @@ recommended to add `${GOPATH}/bin` to your `PATH` at this point.
 install it:
 
 ```bash
-git clone https://github.com/Nexellia-Network/dnsseeder ${GOPATH}/src/github.com/Nexellia-Network/dnsseeder
-cd ${GOPATH}/src/github.com/Nexellia-Network/dnsseeder
+git clone https://github.com/Nexell-AI-Network/dnsseeder ${GOPATH}/src/github.com/Nexell-AI-Network/dnsseeder
+cd ${GOPATH}/src/github.com/Nexell-AI-Network/dnsseeder
 go install .
 ```
 

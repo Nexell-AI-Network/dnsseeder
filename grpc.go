@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/model/externalapi"
-	"github.com/Nexellia-Network/nexelliad/domain/consensus/utils/subnetworks"
+	"github.com/Nexell-AI-Network/nexelliad/v2/domain/consensus/model/externalapi"
+	"github.com/Nexell-AI-Network/nexelliad/v2/domain/consensus/utils/subnetworks"
 
 	"github.com/miekg/dns"
-	"github.com/Nexellia-Network/nexelliad/app/appmessage"
-	"github.com/Nexellia-Network/nexelliad/infrastructure/network/dnsseed/pb"
+	"github.com/Nexell-AI-Network/nexelliad/v2/app/appmessage"
+	"github.com/Nexell-AI-Network/nexelliad/v2/infrastructure/network/dnsseed/pb"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )
